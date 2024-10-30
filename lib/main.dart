@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
  ).copyWith(secondary: Colors.deepPurple[400]),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(),
     );
   }
 }
